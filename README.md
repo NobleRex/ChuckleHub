@@ -20,15 +20,15 @@ ChuckleHub is a web application that delivers a daily dose of laughter through a
 
 ## Installation
 
-1. Clone the repository:
-
+1. Clone the repository
+```
 git clone https://github.com/NobleRex/ChuckleHub.git
 cd chucklehub
-
+```
 2. Create a virtual environment:
-
+```
 python -m venv venv
-
+```
 3. Activate the virtual environment:
 
 - On Windows:
@@ -41,23 +41,23 @@ python -m venv venv
   ```
 
 4. Install the required packages:
-
+```
 pip install -r requirements.txt
-
+```
 5. Apply migrations:
-
+```
 python manage.py migrate
-
+```
 6. Create a superuser (optional):
-
+```
 python manage.py createsuperuser
-
+```
 ## Running the Project
 
 1. Start the development server:
-
+```
 python manage.py runserver
-
+```
 2. Open a web browser and navigate to `http://127.0.0.1:8000/`
 
 ## Project Structure
