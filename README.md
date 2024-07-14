@@ -22,7 +22,7 @@ ChuckleHub is a web application that delivers a daily dose of laughter through a
 
 1. Clone the repository:
 
-git clone https://github.com/NobleRex/chucklehub.git
+git clone https://github.com/NobleRex/ChuckleHub.git
 cd chucklehub
 
 2. Create a virtual environment:
